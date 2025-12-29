@@ -114,11 +114,11 @@ export function CustomRules() {
                     className="block p-6 transition-all duration-200 bg-gray-900 border border-gray-800 rounded-lg hover:border-gray-700 hover:transform hover:-translate-y-1"
                   >
                     <h3 className="mb-2 text-lg font-medium">{test.title}</h3>
-                    <p className="mb-4 text-sm text-gray-400">
+                    <p className="mb-4 text-sm text-gray-400 break-all">
                       {test.description}
                     </p>
                     <div className="flex items-center justify-between">
-                      <code className="px-2 py-1 text-sm bg-gray-800 rounded">
+                      <code className="px-2 py-1 text-sm bg-gray-800 rounded break-all">
                         {test.path}
                       </code>
                       <svg
